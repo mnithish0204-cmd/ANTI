@@ -1,0 +1,8 @@
+# AI Multimodal Matching Engine Package
+from .image_engine import calculate_image_similarity, extract_image_features
+from .text_engine import calculate_text_similarity, build_report_text
+from .location_engine import calculate_location_similarity, CAMPUS_BUILDINGS
+from .time_engine import calculate_time_similarity
+from .fusion_engine import calculate_multimodal_match, generate_dynamic_explanation
+from .evaluator import run_academic_evaluation
+from .relevance_engine import validate_image_relevance, build_item_text_representation
